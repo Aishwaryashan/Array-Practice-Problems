@@ -98,7 +98,7 @@ public class FileStreamExample
         {
             for (int j = 0; j <= 3; j++)
             {
-                Console.Write("9");
+                Console.Write("*");
             }
                         Console.WriteLine("*");
         }
