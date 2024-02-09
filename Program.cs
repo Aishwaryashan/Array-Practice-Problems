@@ -105,6 +105,7 @@ public class FileStreamExample
 
         
         Console.ReadLine();
+        Console.ReadLine();
     }
     
          
