@@ -12,6 +12,7 @@ public class FileStreamExample
             mul *= i;
         }
         Console.WriteLine(mul);
+
         Console.ReadLine();
     }
     }
