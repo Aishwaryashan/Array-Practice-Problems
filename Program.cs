@@ -4,15 +4,21 @@ using System.IO;
 public class FileStreamExample
 {
     public static void Main(string[] args)
-    { 
-        int sum = 0;
-        int[] arr = { 1, 2, 3, 4, 5 };
-         for ( int i = 0; i <=4 ; i++ )
-        {
-             sum += arr[i];     
-        }
-        Console.WriteLine(sum);
+    {
+        int  a = 2;
+        bool b = false;
+        int[] arr = { 4, 7,3,1,22,6 };
 
+        for (int i = 0; i <= 5; i++)
+        {
+            if (arr[i] == a)
+            {
+                b = true;
+                Console.WriteLine(a);
+            }
+            
+        }
+        Console.WriteLine(b);
         Console.ReadLine();
     }
     }
