@@ -14,11 +14,20 @@ public class FileStreamExample
             if (arr[i] == a)
             {
                 b = true;
-                Console.WriteLine(a);
+               
             }
             
         }
-        Console.WriteLine(b);
+        if(b)
+        {
+            Console.WriteLine($"{a} is present");
+        }
+        else
+        {
+            Console.WriteLine($"{a} is not present");
+
+        }
+       
         Console.ReadLine();
     }
     }
