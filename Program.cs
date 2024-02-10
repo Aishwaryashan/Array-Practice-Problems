@@ -5,29 +5,13 @@ public class FileStreamExample
 {
     public static void Main(string[] args)
     {
-        int  a = 2;
-        bool b = false;
-        int[] arr = { 4, 7,3,1,22,6 };
+        int mul = 1;
 
-        for (int i = 0; i <= 5; i++)
+        for (int i = 10; i >= 1; i--)
         {
-            if (arr[i] == a)
-            {
-                b = true;
-               
-            }
-            
+            mul *= i;
         }
-        if(b)
-        {
-            Console.WriteLine($"{a} is present");
-        }
-        else
-        {
-            Console.WriteLine($"{a} is not present");
-
-        }
-       
+        Console.WriteLine(mul);
         Console.ReadLine();
     }
     }
