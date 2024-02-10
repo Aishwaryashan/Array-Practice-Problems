@@ -5,14 +5,16 @@ public class FileStreamExample
 {
     public static void Main(string[] args)
     {
-        int mul = 1;
-
-        for (int i = 10; i >= 1; i--)
+        int x = 14;
+        int y = x % 2;
+        if (y == 0)
         {
-            mul *= i;
+            Console.WriteLine("Its even");
         }
-        Console.WriteLine(mul);
-
+        else
+        {
+            Console.WriteLine("Not an even number");
+        }
         Console.ReadLine();
     }
-    }
+ }
