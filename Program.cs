@@ -7,15 +7,15 @@ public class FileStreamExample
     {
 
         int[] arr = { 4, 1, 3, 5, 8, 9 };
-        int min = arr[0];
-        for (int i = 0; i < arr.Length; i++) 
+        int max=arr[0];
+        for (int i = 0; i <arr.Length;i++)
         {
-            if (arr[i]<min)
+            if (arr[i]>max)
             {
-                min = arr[i];
-                Console.WriteLine(min);
+                max=arr[i];
             }
         }
+        Console.WriteLine(max);
         
         Console.ReadLine();
     }
