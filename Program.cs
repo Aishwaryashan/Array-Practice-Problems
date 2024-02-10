@@ -5,21 +5,21 @@ public class FileStreamExample
 {
     public static void Main(string[] args)
     {
+        for (int i = 1; i <= 3; i++)
         {
-            int num = Convert.ToInt32(Console.ReadLine());
-            int mul = 1;
 
-            for (int i = num; i >= 1; i--)
+            int x = i;
+            for (int j = 1; j <=i; j++)
             {
-                mul *= i;
+                Console.Write(x);
+                x++;
             }
-            
-            Console.WriteLine(mul);  
-
+            Console.WriteLine();
         }
+
         Console.ReadLine();
     }
-       
-       
-    }
-   
+
+
+
+}
