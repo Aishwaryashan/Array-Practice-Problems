@@ -16,9 +16,6 @@ public class FileStreamExample
                 Console.WriteLine(min);
             }
         }
-       
-
-
         
         Console.ReadLine();
     }
