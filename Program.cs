@@ -5,21 +5,32 @@ public class FileStreamExample
 {
     public static void Main(string[] args)
     {
-        for (int i = 1; i <= 3; i++)
+        int a = 0;
+        int b = 0;
+        int sum = 0;
+        for (int i = 0; i <= 30; i++)
         {
+            a = i % 3;
+            b = i % 5;
 
-            int x = i;
-            for (int j = 1; j <=i; j++)
+            if (a == 0 || b == 0)
             {
-                Console.Write(x);
-                x++;
-            }
-            Console.WriteLine();
-        }
+                Console.Write("{0}\t", i);
+                sum += i;
 
+            }
+
+        }
+        Console.WriteLine("\n The Sum is equal to:"+sum);
         Console.ReadLine();
+    }
+           
+        
+
+       
+
+       
     }
 
 
 
-}

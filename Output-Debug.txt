@@ -1,0 +1,3 @@
+﻿'prince.exe' (CLR v4.0.30319: DefaultDomain): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_32\mscorlib\v4.0_4.0.0.0__b77a5c561934e089\mscorlib.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'prince.exe' (CLR v4.0.30319: DefaultDomain): Loaded 'C:\Users\chana\OneDrive\Desktop\LocoBuzz Training\prince\bin\Debug\prince.exe'. Symbols loaded.
+The program '[32544] prince.exe' has exited with code 3221225786 (0xc000013a).
